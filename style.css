@@ -1,0 +1,46 @@
+/* *{
+    margin: 0px;
+
+} */
+.nav-logo{
+    width: 100px;
+    height:auto;
+} 
+.nav-links{
+   
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+   list-style-type: none;
+    
+    width: 50%;
+    
+}
+nav{
+    
+    
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+
+}
+body{
+    margin: 0px;
+
+    
+}
+header{
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    
+}
+.mainlogo{
+    width: 15rem;
+}
+main{
+    margin-top: 12rem;
+}
