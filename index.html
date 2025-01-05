@@ -22,7 +22,7 @@
 
     </nav>
 </header>
-    <main>
+    <main class="main">
         <div class="left-section">
             <img class="mainlogo" src="assets/img/Facebook-Logo-2019.png" alt="">
             <p>Connect with friends and the world 
@@ -30,11 +30,18 @@
             </p>
         </div>
         <div class="right-section">
-            <form action="">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" required />
-            </form>
-        </div>
+            
+                <div class="logincontainer">
+                <form action="/login" method="POST">
+                    <input type="email" placeholder="Email or Phone Number" required>
+                    <input type="password" placeholder="Password" required>
+                    <button class="login" type="submit">Log In</button>
+                    <a href=""> forgot password? </a>
+                    <button class="create">Create new account</button>
+                </form>
+            </div>
+            </div>
+            
     </main>
     
 </body>

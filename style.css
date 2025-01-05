@@ -29,6 +29,8 @@ nav{
 }
 body{
     margin: 0px;
+    height: 150vh;
+    background-color: #eaeaea;
 
     
 }
@@ -39,8 +41,98 @@ header{
     
 }
 .mainlogo{
-    width: 15rem;
+    width: 25rem;
 }
 main{
     margin-top: 12rem;
+}
+.left-section{
+    background-color: #eaeaea;
+    width: 100%;
+    padding: 5rem;
+    ;
+  
+}
+.right-section{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 60px 0 0;
+    padding: 50px 0 58px;
+    width: 500px;
+    margin-right: 150px;
+    height: 23rem;
+
+}
+p{
+    width: 15rem;
+  margin: 1rem 0 0 0;
+  padding: 0px;
+  margin: 1%}
+.main{
+    
+    /* background-color: rgb(199, 199, 199); */
+    display: flex;
+    padding: 4rem;
+    
+  
+}
+
+   
+
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+}
+
+
+input {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 50px;
+    
+}
+
+.login{
+    width: 65%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.create{
+    background-color: green;
+    color: white;
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 65%;
+    height: 35px;
+}
+
+button:hover {
+    background-color: #165eab;
+}
+.left-section{
+    margin: 0px;
+}
+a{
+    font-size: 17px;
+    color: #1877f2;
+    margin-left: 70px;
+    
 }
